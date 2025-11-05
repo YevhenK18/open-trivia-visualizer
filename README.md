@@ -1,16 +1,66 @@
-# React + Vite
+# 🎯 Open Trivia Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Open Trivia Visualizer** is an interactive data visualization tool that displays trivia data from the [Open Trivia DB API](https://opentdb.com).  
+It allows users to explore quiz questions through charts that show how questions are distributed by category and difficulty.  
+The app is built with **React**, **Vite**, **Tailwind CSS**, and **Recharts** for a modern, responsive, and animated user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+🔗 **[View the App Here](https://yevhenk18.github.io/open-trivia-visualizer/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Project Overview
 
-## Expanding the ESLint configuration
+**Open Trivia Visualizer** is a lightweight yet dynamic web application that:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fetches **50+ questions** from the [Open Trivia DB API](https://opentdb.com/api_config.php)
+- Displays the **distribution of questions by category**
+- Shows the **distribution by difficulty** (easy / medium / hard)
+- Lets users **filter questions by category**
+- Supports **light and dark themes** 🌙☀️
+- Includes **smooth animations and transitions** for better UX
+
+The goal of this project is to demonstrate skills in API integration, modern frontend development, and interactive data visualization.
+
+---
+
+## 🧩 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React (Functional Components + Hooks) |
+| Styling | Tailwind CSS |
+| Charts | Recharts |
+| Animations | Framer Motion |
+| Deployment | GitHub Pages |
+| Build Tool | Vite |
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your_username>/open-trivia-visualizer.git
+   cd open-trivia-visualizer
+2. Install dependencies
+
+npm install
+
+
+3. Start the development server
+
+npm run dev
+
+
+4. Build for production
+
+npm run build
+
+
+5. Deploy to GitHub Pages
+
+npm run deploy
+
